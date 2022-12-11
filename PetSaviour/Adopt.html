@@ -25,14 +25,6 @@
     </head>
     
 <body>
-    <!-- Navigation bar -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="logo2.jpg" alt=""
-                style="width: 2.5rem;height:2.5rem;border-radius:50% ;">
-            PETSAVIOUR </a>
-
-        <i class="fa fa-home"></i>
-    </nav> -->
     <section id="goBack">
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid" style="height:60px;">
@@ -54,7 +46,7 @@
 
     
 
-    <div class="container">
+    <div class="container" >
         <header class="header">
             <p id="description">
                 Become a PetSaviour by adopting a needy one and give a new life :)
@@ -68,7 +60,6 @@
                 <label for="name" class="heading">Name:</label>
                 <input type="text " name="name" id="name" class="formControl" placeholder="Enter your name" required>
             </div>
-
             <!-- Email Section -->
             <div class="form-group">
                 <label for="email" class="heading">Email-ID: </label>
@@ -82,10 +73,15 @@
                 <input type="number " name="phone" id="phone" class="formControl" placeholder="Enter your number"
                     required>
             </div>
+            <div class="form-group">
+
+                <label for="namePet" class="heading">Name of the Pet:</label>
+                <input type="text " name="name" id="name" class="formControl" placeholder="Enter name of the pet you want to adopt" required>
+            </div>
 
             <div class="form-group">
                 <label for="address" class="heading">Address:</label>
-                <textarea name="Address" id="Address" cols="82" rows="5" placeholder="Enter your Address"></textarea>
+                <textarea name="Address" id="Address" cols="101" rows="5" placeholder="Enter your Address"></textarea>
             </div>
 
             <div class="form-group">
@@ -99,27 +95,14 @@
                     <option value="Other">Other</option>
                 </select>
             </div>
-            <!-- <div class="file"> -->
-            <!-- <div class="wrapper">
-
-                    <div class="content">
-                        <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
-                        <div class="text">No file chosen yet </div>
-                    </div>
-                    <div id="cancel-btn"><i class="fas fa-times"></i></div>
-                    <div class="file-name"> <br>File name here</div>
-                </div> -->
-            <!-- <input id="default-btn" type="file">
-                <button id="custom-btn">Choose a File</button>
-            </div> -->
             <div class="form-group">
                 <p id="quest">Why do you want to adopt a pet ?</p>
                 <!-- <input type="text " name="Reason" id="Reason" class="formControl"
                     required> -->
-                <textarea name="Reason" id="Reason" cols="82" rows="5" placeholder="Enter your Reason"></textarea>
+                <textarea name="Reason" id="Reason" cols="101" rows="5" placeholder="Enter your Reason"></textarea>
             </div>
             <div class="form-group">
-                <button type="submit" id="submit" class="Click-here">
+                <button type="submit" id="submit" class="botn">
                     Submit
                 </button>
             </div>
@@ -138,6 +121,8 @@
             <a href="/about.html">About</a>
             ·
             <a href="/petadoption.html">Adopt</a>
+            ·
+            <a href="/donate.html">Donate</a>
             ·
             <a href="#">Contact</a>
         </p>

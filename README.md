@@ -1,2 +1,2 @@
 # PetSaviour
-Website to help needy animals to get a new life :)
+Website to help the needy animals to get a new life :)
